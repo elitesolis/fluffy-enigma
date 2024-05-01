@@ -1,73 +1,72 @@
-//Header: static
+/* Header: static */ 
 header#header {
   position: fixed;
   z-index: 9999;
   width: 100%;
   background-color: #3DACE2 !important;
 }
-//END Header: static
+/* END Header: static */
 
-//Header: Decrease height
+/* Header: Decrease height */
 @media screen and (min-width: 768px) {
 div.header-announcement-bar-wrapper {
   padding-top: .75vw !important;
   padding-bottom: .75vw !important;
 }  
 }
-//END Header: Decrease height
+/* END Header: Decrease height */
 
-// FontAwesome: Space from text
+/* FontAwesome: Space from text */
 span.map, span.hours {
   margin-left: 0.4em;
 }
-//END FontAwesome: Space from text
+/* END FontAwesome: Space from text */
 
 span.menu {
   margin-right: 0.4em;
 }
 
-//Global: Rainbow gradient (desktop)
+/* Global: Rainbow gradient (desktop) */
 .site-wrapper {
   background: linear-gradient(110deg, #F8333C 0%, #F1592C 25%, #FBA619 50%, #6BBE50 75%, #54C8ED 100%) !important;
 }
-//END Global: Rainbow gradient (desktop)
+/* END Global: Rainbow gradient (desktop) */
 
-//Global: Rainbow gradient (mobile)
+/* Global: Rainbow gradient (mobile) */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .site-wrapper {
     background: linear-gradient(90deg, #F8333C 0%, #F1592C 25%, #FBA619 50%, #6BBE50 75%, #54C8ED 100%) !important;
   }
  }
-//END Global: Rainbow gradient (mobile)
+/* END Global: Rainbow gradient (mobile) */
 
-// Supports rainbow gradient
+/* Supports rainbow gradient */
 section *:not(div.fe-block,a,div.newsletter-form-field-wrapper,.content-fill,img,.sqs-image-content,div.form-button-wrapper) {
   background: transparent !important;
 }
-// END Supports rainbow gradient
+/* END Supports rainbow gradient */
 
-//Header: gradient (blue)
+/* Header: gradient (blue) */
 header#header {
   background: linear-gradient(80deg, rgba(84,200,237,1), rgba(84,200,237,0));
 }
-//END Header: gradient (blue)
+/* END Header: gradient (blue) */
 
 
-//////////////FORMS//////////////
-//Submit button color (blue)
+/* FORMS */
+/* Submit button color (blue) */
 div.form-button-wrapper {
   background-color: #3DACE2;
   border-radius: 15px;
 }
-//END Submit button color (blue)
+/* END Submit button color (blue) */
 
-
-//////////////IMAGES//////////////
-//Border color (blue)
+/* IMAGES */
+/* Border color (blue) */
 #block-yui_3_17_2_1_1710631585075_11232 div.sqs-image, #block-yui_3_17_2_1_1712098578293_15868 div.sqs-image, #block-yui_3_17_2_1_1712098578293_33104 div.sqs-image, div.list-item-media-inner {
   border: 7px solid #3DACE2;
 }
-//END Border color (blue)
+/* END Border color (blue) */
 
 @media only screen and (max-width: 875px) and (min-width: 765px) {
    #block-yui_3_17_2_1_1712098578293_15868 div.sqs-image {
@@ -75,7 +74,7 @@ div.form-button-wrapper {
   } 
 }
 
-///// Employment /////
+ /* Employment  */
 @media only screen and (max-width: 407px) and (min-width: 398px) {
   div.fe-block-31a1428ca54d3f731284 {
     grid-row-start: 71;
@@ -695,57 +694,57 @@ div.form-button-wrapper {
 	}
 }
 
-///// END Employment /////
+/* END Employment */
 
 
-//Border color (red)
+/* Border color (red) */
 #block-8bdad922e19025cd7e0c div.sqs-image {
   border: 7px solid #F8333C;
 }
-//END Border color (red)
+/* END Border color (red) */
 
-//Border color (yellow)
+/* Border color (yellow) */
 #block-bd5f823610c786f4b222 div.sqs-image, #block-6b5935b9880f5550a3b8 div.sqs-image  {
   border: 7px solid #FFDE40;
 }
-//END Border color (yellow)
+/* END Border color (yellow) */
 
 
-//White, transparent background for Contact Form
+/* White, transparent background for Contact Form */
 div.fe-block-720afe80e5e200368801 {
   background-color: rgba(255, 255, 255, .7);
   padding: 15px 15px;
   border-radius: 12px;
 }
 
-//White, transparent background for Subscribe to Newsletter
+/* White, transparent background for Subscribe to Newsletter */
 div.newsletter-form-fields-wrapper.form-fields{
     background-color: rgba(255, 255, 255, .7) !important;
   padding: 5px;
   border-radius: 12px;
 }
 
-//Rounded edges for fields in Subscribe to Newsletter, Contact Form
+/* Rounded edges for fields in Subscribe to Newsletter, Contact Form */
 input.newsletter-form-field-element.field-element, div.fe-block-720afe80e5e200368801 input, div.fe-block-720afe80e5e200368801 select, div.fe-block-720afe80e5e200368801 textarea {
   border-radius: 12px !important;  
 }
 
 
-////////////CONTACT FORM////////////
-//Regular text color (black)
+/* CONTACT FORM */
+/* Regular text color (black) */
 div.fe-block-720afe80e5e200368801 p *:not(p.form-field-error), div.fe-block-720afe80e5e200368801 span, div.caption-text {
   color: #07151B !important;
 }
-//END Regular text color (black)
+/* END Regular text color (black) */
 
-//Error text color (red)
+/* Error text color (red) */
 p.form-field-error {
   color: #F8333C;
 }
-//END Error text color (red)
+/* END Error text color (red) */
 
-//SVG color (red)
+/* SVG color (red) */
 svg.PYwm0cLhFb9of3DL23z_ path {
   fill: #F8333C;
 }
-//END SVG color (red)
+/* END SVG color (red) */
