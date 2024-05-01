@@ -1,32 +1,105 @@
-/* START FontAwesome */
+/* START Header */ 
+/* START Header: static */
+header#header {
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+  background-color: #3DACE2 !important;
+}
+/* END Header: static */
+
+/* Header: Decrease height */
+@media screen and (min-width: 768px) {
+div.header-announcement-bar-wrapper {
+  padding-top: .75vw !important;
+  padding-bottom: .75vw !important;
+}  
+}
+/* END Header: Decrease height */
+
+/* Header: Gradient (Blue) */
+header#header {
+  background: linear-gradient(80deg, rgba(84,200,237,1), rgba(84,200,237,0));
+}
+/* END Header: gradient (blue) */
+/* END Header */ 
+
+
+
 /* START FontAwesome: Space from text */
-span.map, span.hours {
-  margin-left: 0.4em;
-}
-
-span.menu {
-  margin-right: 0.4em;
-}
 /* END FontAwesome: Space from text */
-/* END FontAwesome */
 
 
 
-/* IMAGES */
-/* Border color (blue) */
-#block-yui_3_17_2_1_1710631585075_11232 div.sqs-image, div.list-item-media-inner {
-  border: 7px solid #3DACE2;
+/* START Global: Rainbow gradient */
+/* START Global: Rainbow gradient (Desktop) */
+.site-wrapper {
+  background: linear-gradient(110deg, #F8333C 0%, #F1592C 25%, #FBA619 50%, #6BBE50 75%, #54C8ED 100%) !important;
 }
-/* END Border color (blue) */
+/* END Global: Rainbow gradient (Desktop) */
 
-/* Border color (red) */
-#block-8bdad922e19025cd7e0c div.sqs-image {
-  border: 7px solid #F8333C;
-}
-/* END Border color (red) */
+/* Global: Rainbow gradient (mobile) */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .site-wrapper {
+    background: linear-gradient(90deg, #F8333C 0%, #F1592C 25%, #FBA619 50%, #6BBE50 75%, #54C8ED 100%) !important;
+  }
+ }
+ /* END Global: Rainbow gradient (mobile) */
+ 
+ /* START Supports rainbow gradient */
+ section *:not(div.fe-block,a,div.newsletter-form-field-wrapper,.content-fill,img,.sqs-image-content,div.form-button-wrapper) {
+   background: transparent !important;
+ }
+ /* END Supports rainbow gradient */
+/* END Global: Rainbow gradient */
 
-/* Border color (yellow) */
-#block-bd5f823610c786f4b222 div.sqs-image {
-  border: 7px solid #FFDE40;
+
+
+/* START FORMS */
+/* Submit button color (Blue) */
+div.form-button-wrapper {
+  background-color: #3DACE2;
+  border-radius: 15px;
 }
-/* END Border color (yellow) */
+/* END Submit button color (Blue) */
+
+/* Regular text color (Black) */
+div.fe-block-720afe80e5e200368801 p *:not(p.form-field-error), div.fe-block-720afe80e5e200368801 span, div.caption-text {
+  color: #07151B !important;
+}
+/* END Regular text color (Black) */
+
+/* Error text color (Red) */
+p.form-field-error {
+  color: #F8333C;
+}
+/* END Error text color (Red) */
+
+/* SVG color (red) */
+svg.PYwm0cLhFb9of3DL23z_ path {
+  fill: #F8333C;
+}
+/* END SVG color (Red) */
+
+/* START White, transparent background for Contact Form */
+div.fe-block-720afe80e5e200368801 {
+  background-color: rgba(255, 255, 255, .7);
+  padding: 15px 15px;
+  border-radius: 12px;
+}
+/* END White, transparent background for Contact Form */
+
+/* START White, transparent background for Subscribe to Newsletter */
+div.newsletter-form-fields-wrapper.form-fields{
+    background-color: rgba(255, 255, 255, .7) !important;
+  padding: 5px;
+  border-radius: 12px;
+}
+/* END White, transparent background for Subscribe to Newsletter */
+
+/* START Rounded edges for fields in Subscribe to Newsletter, Contact Form */
+input.newsletter-form-field-element.field-element, div.fe-block-720afe80e5e200368801 input, div.fe-block-720afe80e5e200368801 select, div.fe-block-720afe80e5e200368801 textarea {
+  border-radius: 12px !important;  
+}
+/* END Rounded edges for fields in Subscribe to Newsletter, Contact Form */
+/* END FORMS */
