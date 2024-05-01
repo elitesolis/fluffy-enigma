@@ -1,0 +1,32 @@
+/* START FontAwesome */
+/* START FontAwesome: Space from text */
+span.map, span.hours {
+  margin-left: 0.4em;
+}
+
+span.menu {
+  margin-right: 0.4em;
+}
+/* END FontAwesome: Space from text */
+/* END FontAwesome */
+
+
+
+/* IMAGES */
+/* Border color (blue) */
+#block-yui_3_17_2_1_1710631585075_11232 div.sqs-image, div.list-item-media-inner {
+  border: 7px solid #3DACE2;
+}
+/* END Border color (blue) */
+
+/* Border color (red) */
+#block-8bdad922e19025cd7e0c div.sqs-image {
+  border: 7px solid #F8333C;
+}
+/* END Border color (red) */
+
+/* Border color (yellow) */
+#block-bd5f823610c786f4b222 div.sqs-image {
+  border: 7px solid #FFDE40;
+}
+/* END Border color (yellow) */
