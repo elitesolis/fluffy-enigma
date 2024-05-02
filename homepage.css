@@ -30,3 +30,12 @@ span.menu {
   border: 7px solid #FFDE40;
 }
 /* END Border color (yellow) */
+
+
+/* START Responsiveness */
+@media only screen and (max-width: 365px) and (min-width: 305px) {
+    span.map, span.hours {
+        display: none;
+    }
+}
+/* END Responsiveness */
