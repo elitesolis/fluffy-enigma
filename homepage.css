@@ -1,6 +1,7 @@
-/* START FontAwesome */
+/* START FONTAWESOME */
 /* START FontAwesome: Space from text */
-span.map, span.hours {
+span.map,
+span.hours {
   margin-left: 0.4em;
 }
 
@@ -8,34 +9,74 @@ span.menu {
   margin-right: 0.4em;
 }
 /* END FontAwesome: Space from text */
-/* END FontAwesome */
+/* END FONTAWESOME */
 
 
 
-/* IMAGES */
-/* Border color (blue) */
-#block-yui_3_17_2_1_1710631585075_11232 div.sqs-image, div.list-item-media-inner {
+/* START IMAGES */
+/* Border color (Blue) */
+#block-yui_3_17_2_1_1710631585075_11232 div.sqs-image,
+div.list-item-media-inner {
   border: 7px solid #3DACE2;
 }
-/* END Border color (blue) */
+/* END Border color (Blue) */
 
-/* Border color (red) */
+/* Border color (Red) */
 #block-8bdad922e19025cd7e0c div.sqs-image {
   border: 7px solid #F8333C;
 }
-/* END Border color (red) */
+/* END Border color (Red) */
 
-/* Border color (yellow) */
+/* Border color (Yellow) */
 #block-bd5f823610c786f4b222 div.sqs-image {
   border: 7px solid #FFDE40;
 }
-/* END Border color (yellow) */
+/* END Border color (Yellow) */
+/* END IMAGES */
 
 
-/* START Responsiveness */
+
+/* START RESPONSIVENESS */
+/* START Hide FontAwesome icons */
 @media only screen and (max-width: 365px) and (min-width: 305px) {
-    span.map, span.hours {
-        display: none;
-    }
+
+  span.map,
+  span.hours {
+    display: none;
+  }
 }
-/* END Responsiveness */
+/* END Hide FontAwesome icons */
+
+@media only screen and (max-width: 481px) and (min-width: 431px) {
+  /* START Paragraph - Move Up */
+  div.fe-block-yui_3_17_2_1_1710631585075_7724 {
+    grid-row-start: 7;
+    grid-row-end: 12;
+  }
+  /* END Paragraph - Move Up */
+}
+
+@media only screen and (max-width: 768px) and (min-width: 482px) {
+  /* START Paragraph - Move Up */
+  div.fe-block-yui_3_17_2_1_1710631585075_7724 {
+    grid-row-start: 6;
+    grid-row-end: 9;
+  }
+  /* END Paragraph - Move Up */
+
+  /* START Image - Move below Buttons */
+  div.fe-block-yui_3_17_2_1_1710631585075_11232 {
+    grid-row-start: 12;
+    grid-row-end: 20;
+  }
+  /* END Image - Move below Buttons */
+
+  /* START Button: Catering & Menu - Move above Image */
+  div.fe-block-65f6304c03f8de86cbcf720f,
+  div.fe-block-65f6304c669dc7cf38d8e7ad {
+    grid-row-start: 9;
+    grid-row-end: 11;
+  }
+  /* END Button: Catering & Menu - Move above Image */
+}
+/* END RESPONSIVENESS */
