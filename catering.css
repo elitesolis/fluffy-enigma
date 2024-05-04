@@ -4,7 +4,6 @@ div.sqs-image,
 div.list-item-media-inner {
     border: 7px solid #3DACE2;
 }
-
 /* END Border color (Blue) */
 /* END IMAGES */
 
@@ -13,7 +12,6 @@ div.list-item-media-inner {
     div.fe-block-yui_3_17_2_1_1712098578293_31337 {
         grid-row-start: 2;
         grid-row-end: 13;
-
     }
 
     div.fe-block-yui_3_17_2_1_1712098578293_33104 {
@@ -21,7 +19,6 @@ div.list-item-media-inner {
         grid-column-start: 2;
         grid-row-end: 19;
         grid-column-end: 10;
-
     }
 
     div.fe-block-1c58593178c4b47025d7 {
@@ -60,7 +57,6 @@ div.list-item-media-inner {
     div.fe-block-yui_3_17_2_1_1712098578293_31337 {
         grid-row-start: 2;
         grid-row-end: 13;
-
     }
 
     div.fe-block-f9fe526b0f15c8fb82fa {
@@ -78,7 +74,6 @@ div.list-item-media-inner {
         grid-column-start: 2;
         grid-row-end: 19;
         grid-column-end: 10;
-
     }
 
     div.fe-block-1c58593178c4b47025d7 {
@@ -89,7 +84,6 @@ div.list-item-media-inner {
     div.fe-block-53844d7fb70b92a5d3b8 {
         grid-row-start: 34;
         grid-row-end: 38;
-
     }
 
     div.fe-block-a66c2b86ec8687161eda {
@@ -106,7 +100,6 @@ div.list-item-media-inner {
     div.fe-block-yui_3_17_2_1_1712098578293_31337 {
         grid-row-start: 2;
         grid-row-end: 13;
-
     }
 
     div.fe-block-yui_3_17_2_1_1712098578293_33104 {
@@ -152,7 +145,6 @@ div.list-item-media-inner {
     div.fe-block-yui_3_17_2_1_1712098578293_31337 {
         grid-row-start: 2;
         grid-row-end: 13;
-
     }
 
     div.fe-block-yui_3_17_2_1_1712098578293_33104 {
@@ -160,7 +152,6 @@ div.list-item-media-inner {
         grid-column-start: 2;
         grid-row-end: 19;
         grid-column-end: 10;
-
     }
 
     div.fe-block-1c58593178c4b47025d7 {
@@ -198,7 +189,6 @@ div.list-item-media-inner {
     div.fe-block-yui_3_17_2_1_1712098578293_31337 {
         grid-row-start: 2;
         grid-row-end: 13;
-
     }
 
     div.fe-block-yui_3_17_2_1_1712098578293_33104 {
@@ -206,7 +196,6 @@ div.list-item-media-inner {
         grid-column-start: 2;
         grid-row-end: 17;
         grid-column-end: 10;
-
     }
 
     div.fe-block-1c58593178c4b47025d7 {
@@ -244,7 +233,6 @@ div.list-item-media-inner {
     div.fe-block-yui_3_17_2_1_1712098578293_31337 {
         grid-row-start: 2;
         grid-row-end: 13;
-
     }
 
     div.fe-block-yui_3_17_2_1_1712098578293_33104 {
@@ -252,7 +240,6 @@ div.list-item-media-inner {
         grid-column-start: 2;
         grid-row-end: 16;
         grid-column-end: 10;
-
     }
 
     div.fe-block-1c58593178c4b47025d7 {
@@ -290,7 +277,6 @@ div.list-item-media-inner {
     div.fe-block-yui_3_17_2_1_1712098578293_31337 {
         grid-row-start: 2;
         grid-row-end: 13;
-
     }
 
     div.fe-block-yui_3_17_2_1_1712098578293_33104 {
@@ -298,7 +284,6 @@ div.list-item-media-inner {
         grid-column-start: 2;
         grid-row-end: 16;
         grid-column-end: 10;
-
     }
 
     div.fe-block-1c58593178c4b47025d7 {
@@ -331,22 +316,6 @@ div.list-item-media-inner {
         grid-template-rows: repeat(32, minmax(24px, auto));
     }
 }
-
-/* 
-    grid-row-start: 69;
-    grid-column-start: 19;
-    grid-row-end: 79;
-    grid-column-end: 26;
-
-CHECK FONT SIZE
-iPad Mini: 768x1024
-iPad Air: 820x1180 
-Asus Zenbook Fold: 853x1280 
-Surface Pro 7: 912x1368
-iPad Pro: 1024x1366
-Nest Hub: 1024x600
-Nest Hub Max: 1280x800
-*/
 
 @media only screen and (max-width: 1280px) and (min-width: 768px) {
 
