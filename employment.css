@@ -1,0 +1,255 @@
+/* START IMAGES */
+/* Border color (Blue) */
+div.sqs-image {
+  border: 7px solid #3DACE2;
+}
+
+/* END Border color (Blue) */
+/* END IMAGES */
+
+/* START RESONSIVENESS */
+@media only screen and (max-width: 423px) and (min-width: 398px) {
+
+  div.fe-66286d50a70bb026561e0c01 {
+    grid-template-rows: repeat(111, minmax(24px, auto));
+  }
+
+  div.fe-block-31a1428ca54d3f731284 {
+    grid-row-start: 71;
+    grid-row-end: 77;
+  }
+
+  div.fe-block-yui_3_17_2_1_1713752715152_173233 {
+    grid-row-start: 78;
+    grid-row-end: 95;
+  }
+
+  div.fe-block-bd6d0bc4e0a4745804a2 {
+    grid-row-start: 95;
+    grid-row-end: 101;
+  }
+
+  div.fe-block-cd266625c53b6950705f {
+    grid-row-start: 102;
+    grid-row-end: 107;
+  }
+
+  div.fe-block-ddf794f4d88a8062ffdc {
+    grid-row-start: 107;
+    grid-row-end: 112;
+  }
+}
+
+@media only screen and (max-width: 432px) and (min-width: 424px) {
+
+  div.fe-66286d50a70bb026561e0c01 {
+    grid-template-rows: repeat(111, minmax(24px, auto));
+  }
+
+  div.fe-block-31a1428ca54d3f731284 {
+    grid-row-start: 71;
+    grid-row-end: 77;
+  }
+
+  div.fe-block-yui_3_17_2_1_1713752715152_173233 {
+    grid-row-start: 78;
+    grid-row-end: 95;
+  }
+
+  div.fe-block-bd6d0bc4e0a4745804a2 {
+    grid-row-start: 94;
+    grid-row-end: 100;
+  }
+
+  div.fe-block-cd266625c53b6950705f {
+    grid-row-start: 101;
+    grid-row-end: 107;
+  }
+
+  div.fe-block-ddf794f4d88a8062ffdc {
+    grid-row-start: 107;
+    grid-row-end: 112;
+  }
+}
+
+@media only screen and (max-width: 539px) and (min-width: 433px) {
+
+  div.fe-block-cbcc80f17651c3fc0971 {
+    grid-row-start: 12;
+  }
+
+  div.fe-block-31a1428ca54d3f731284 {
+    grid-row-start: 65;
+    grid-row-end: 71;
+  }
+
+  div.fe-block-yui_3_17_2_1_1713752715152_173233 {
+    grid-row-start: 72;
+    grid-row-end: 85;
+  }
+
+  div.fe-block-bd6d0bc4e0a4745804a2 {
+    grid-row-start: 85;
+    grid-row-end: 91;
+  }
+
+  div.fe-block-cd266625c53b6950705f {
+    grid-row-start: 92;
+    grid-row-end: 116;
+
+  }
+
+  div.fe-block-ddf794f4d88a8062ffdc {
+    grid-row-start: 116;
+    grid-row-end: 122;
+
+  }
+
+  div.fe-66286d50a70bb026561e0c01 {
+    grid-template-rows: repeat(121, minmax(24px, auto));
+  }
+}
+
+@media only screen and (max-width: 636px) and (min-width: 540px) {
+
+  div.fe-block-cbcc80f17651c3fc0971 {
+    grid-row-start: 11;
+  }
+
+  div.fe-block-31a1428ca54d3f731284 {
+    grid-row-start: 61;
+    grid-row-end: 67;
+  }
+
+  div.fe-block-yui_3_17_2_1_1713752715152_173233 {
+    grid-row-start: 68;
+    grid-row-end: 81;
+  }
+
+  div.fe-block-bd6d0bc4e0a4745804a2 {
+    grid-row-start: 81;
+    grid-row-end: 87;
+  }
+
+  div.fe-block-cd266625c53b6950705f {
+    grid-row-start: 88;
+    grid-row-end: 109;
+  }
+
+  div.fe-block-ddf794f4d88a8062ffdc {
+    grid-row-start: 109;
+    grid-row-end: 115;
+  }
+
+  div.fe-66286d50a70bb026561e0c01 {
+    grid-template-rows: repeat(115, minmax(24px, auto));
+  }
+}
+
+@media only screen and (max-width: 690px) and (min-width: 637px) {
+
+  div.fe-block-cbcc80f17651c3fc0971 {
+    grid-row-start: 10;
+    grid-row-end: 16;
+  }
+
+  div.fe-block-011b6f65c80d0dd510d4 {
+    grid-row-start: 17;
+    grid-row-end: 58;
+
+  }
+
+  div.fe-block-31a1428ca54d3f731284 {
+    grid-row-start: 57;
+    grid-row-end: 63;
+  }
+
+  div.fe-block-yui_3_17_2_1_1713752715152_173233 {
+    grid-row-start: 64;
+    grid-row-end: 75;
+  }
+
+  div.fe-block-bd6d0bc4e0a4745804a2 {
+    grid-row-start: 75;
+    grid-row-end: 81;
+  }
+
+  div.fe-block-cd266625c53b6950705f {
+    grid-row-start: 82;
+    grid-row-end: 100;
+  }
+
+  div.fe-block-ddf794f4d88a8062ffdc {
+    grid-row-start: 100;
+    grid-row-end: 106;
+  }
+
+  div.fe-66286d50a70bb026561e0c01 {
+    grid-template-rows: repeat(106, minmax(24px, auto));
+  }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 691px) {
+
+  div.fe-block-cbcc80f17651c3fc0971 {
+    grid-row-start: 10;
+    grid-row-end: 16;
+  }
+
+  div.fe-block-011b6f65c80d0dd510d4 {
+    grid-row-start: 17;
+    grid-row-end: 58;
+
+  }
+
+  div.fe-block-31a1428ca54d3f731284 {
+    grid-row-start: 56;
+    grid-row-end: 62;
+  }
+
+  div.fe-block-yui_3_17_2_1_1713752715152_173233 {
+    grid-row-start: 63;
+    grid-row-end: 74;
+  }
+
+  div.fe-block-bd6d0bc4e0a4745804a2 {
+    grid-row-start: 74;
+    grid-row-end: 80;
+  }
+
+  div.fe-block-cd266625c53b6950705f {
+    grid-row-start: 81;
+    grid-row-end: 99;
+  }
+
+  div.fe-block-ddf794f4d88a8062ffdc {
+    grid-row-start: 99;
+    grid-row-end: 105;
+  }
+
+  div.fe-66286d50a70bb026561e0c01 {
+    grid-template-rows: repeat(104, minmax(24px, auto));
+  }
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 768px) {
+  div.fe-block-ddf794f4d88a8062ffdc {
+    grid-row-start: 53;
+  }
+
+  div.fe-block-bd6d0bc4e0a4745804a2 {
+    grid-row-start: 69;
+    grid-column-start: 19;
+    grid-row-end: 79;
+    grid-column-end: 26;
+  }
+}
+
+/* 
+iPad Mini: 768x1024
+iPad Air: 820x1180 
+Asus Zenbook Fold: 853x1280 
+Surface Pro: 912x1368
+*/
+
+/* START RESONSIVENESS */
