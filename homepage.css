@@ -15,8 +15,7 @@ span.menu {
 
 /* START IMAGES */
 /* Border color (Blue) */
-#block-yui_3_17_2_1_1710631585075_11232 div.sqs-image,
-div.list-item-media-inner {
+#block-yui_3_17_2_1_1710631585075_11232 div.sqs-image {
   border: 7px solid #3DACE2;
 }
 /* END Border color (Blue) */
@@ -74,8 +73,8 @@ div.list-item-media-inner {
   /* START Button: Catering & Menu - Move above Image */
   div.fe-block-65f6304c03f8de86cbcf720f,
   div.fe-block-65f6304c669dc7cf38d8e7ad {
-    grid-row-start: 9;
-    grid-row-end: 11;
+    grid-row-start: 12;
+    grid-row-end: 15;
   }
   /* END Button: Catering & Menu - Move above Image */
 }
