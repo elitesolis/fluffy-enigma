@@ -59,15 +59,15 @@ div.list-item-media-inner {
 @media only screen and (max-width: 768px) and (min-width: 482px) {
   /* START Paragraph - Move Up */
   div.fe-block-yui_3_17_2_1_1710631585075_7724 {
-    grid-row-start: 6;
+    grid-row-start: 8;
     grid-row-end: 9;
   }
   /* END Paragraph - Move Up */
 
   /* START Image - Move below Buttons */
   div.fe-block-yui_3_17_2_1_1710631585075_11232 {
-    grid-row-start: 12;
-    grid-row-end: 20;
+    grid-row-start: 1;
+    grid-row-end: 9;
   }
   /* END Image - Move below Buttons */
 
