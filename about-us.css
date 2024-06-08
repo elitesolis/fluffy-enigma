@@ -9,8 +9,7 @@ div.list-item-media-inner {
 /* END IMAGES */
 
 /* START RESONSIVENESS */
-@media only screen and (max-width: 408px) and (min-width: 325px) {
-
+@media only screen and (325px <= width <= 408px) {
     div.fe-block-161e7f105b86cffcc050 {
         grid-row-end: 4;
 
@@ -55,8 +54,7 @@ div.list-item-media-inner {
 
 }
 
-@media only screen and (max-width: 422px) and (min-width: 409px) {
-
+@media only screen and (409px <= width <= 422px) {
     div.fe-block-161e7f105b86cffcc050 {
         grid-row-end: 4;
 
@@ -101,8 +99,7 @@ div.list-item-media-inner {
 
 }
 
-@media only screen and (max-width: 519px) and (min-width: 423px) {
-
+@media only screen and (423px <= width <= 519px) {
     div.fe-block-161e7f105b86cffcc050 {
         grid-row-end: 4;
 
@@ -147,8 +144,7 @@ div.list-item-media-inner {
 
 }
 
-@media only screen and (max-width: 547px) and (min-width: 520px) {
-
+@media only screen and (520px <= width <= 547px) {
     div.fe-block-161e7f105b86cffcc050 {
         grid-row-end: 4;
 
@@ -193,8 +189,7 @@ div.list-item-media-inner {
 
 }
 
-@media only screen and (max-width: 574px) and (min-width: 548px) {
-
+@media only screen and (548px <= width <= 574px) {
     div.fe-block-161e7f105b86cffcc050 {
         grid-row-end: 4;
 
@@ -239,8 +234,7 @@ div.list-item-media-inner {
 
 }
 
-@media only screen and (max-width: 601px) and (min-width: 575px) {
-
+@media only screen and (575px <= width <= 601px) {
     div.fe-block-161e7f105b86cffcc050 {
         grid-row-start: 2;
         grid-row-end: 3;
@@ -295,8 +289,7 @@ div.list-item-media-inner {
 
 }
 
-@media only screen and (max-width: 767px) and (min-width: 602px) {
-
+@media only screen and (602px <= width <= 767px) {
     div.fe-block-161e7f105b86cffcc050 {
         grid-row-start: 2;
         grid-row-end: 3;
@@ -351,8 +344,7 @@ div.list-item-media-inner {
 
 }
 
-@media only screen and (max-width: 849px) and (min-width: 768px) {
-
+@media only screen and (768px <= width <= 849px) {
     div.fe-block-yui_3_17_2_1_1712098578293_15868 {
         grid-row-start: 5;
         grid-column-start: 16;
@@ -361,8 +353,7 @@ div.list-item-media-inner {
     }
 }
 
-@media only screen and (max-width: 974px) and (min-width: 850px) {
-
+@media only screen and (850px <= width <= 974px) {
     div.fe-block-yui_3_17_2_1_1712098578293_15868 {
         grid-row-start: 2;
         grid-column-start: 18;

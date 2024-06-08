@@ -9,7 +9,7 @@ header#header {
 /* END Header: static */
 
 /* Header: Decrease height */
-@media screen and (min-width: 768px) {
+@media screen and (width >= 768px) {
 div.header-announcement-bar-wrapper {
   padding-top: .75vw !important;
   padding-bottom: .75vw !important;
@@ -18,8 +18,8 @@ div.header-announcement-bar-wrapper {
 /* END Header: Decrease height */
 
 /* Header: Gradient (Blue) */
-header#header {
-  background: linear-gradient(80deg, rgba(84,200,237,1), rgba(84,200,237,0));
+#header {
+  background: linear-gradient(80deg, rgba(84 200 237 1), rgba(84 200 237 0));
 }
 /* END Header: gradient (blue) */
 /* END Header */ 
@@ -27,6 +27,9 @@ header#header {
 
 
 /* START FontAwesome: Space from text */
+span.map {
+  padding-left: 10px;
+}
 /* END FontAwesome: Space from text */
 
 
@@ -39,7 +42,7 @@ header#header {
 /* END Global: Rainbow gradient (Desktop) */
 
 /* Global: Rainbow gradient (mobile) */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media only screen and (320px <= width <= 480px) {
   .site-wrapper {
     background: linear-gradient(90deg, #F8333C 0%, #F1592C 25%, #FBA619 50%, #6BBE50 75%, #54C8ED 100%) !important;
   }
@@ -83,15 +86,15 @@ svg.PYwm0cLhFb9of3DL23z_ path {
 
 /* START White, transparent background for Contact Form */
 div.fe-block-720afe80e5e200368801 {
-  background-color: rgba(255, 255, 255, .7);
-  padding: 15px 15px;
+  background-color: rgba(255 255 255 0.7);
+  padding: 15px;
   border-radius: 12px;
 }
 /* END White, transparent background for Contact Form */
 
 /* START White, transparent background for Subscribe to Newsletter */
 div.newsletter-form-fields-wrapper.form-fields{
-    background-color: rgba(255, 255, 255, .7) !important;
+    background-color: rgba(255 255 255 0.7) !important;
   padding: 5px;
   border-radius: 12px;
 }

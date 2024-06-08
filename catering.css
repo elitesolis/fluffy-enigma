@@ -8,7 +8,7 @@ div.list-item-media-inner {
 /* END IMAGES */
 
 /* START RESPONSIVENESS */
-@media only screen and (max-width: 362px) and (min-width: 344px) {
+@media only screen and (344px <= width <= 362px) {
     div.fe-block-yui_3_17_2_1_1712098578293_31337 {
         grid-row-start: 2;
         grid-row-end: 13;
@@ -53,7 +53,7 @@ div.list-item-media-inner {
 
 }
 
-@media only screen and (max-width: 384px) and (min-width: 363px) {
+@media only screen and (363px <= width <= 384px) {
     div.fe-block-yui_3_17_2_1_1712098578293_31337 {
         grid-row-start: 2;
         grid-row-end: 13;
@@ -96,7 +96,7 @@ div.list-item-media-inner {
     }
 }
 
-@media only screen and (max-width: 432px) and (min-width: 385px) {
+@media only screen and (385px <= width <= 432px) {
     div.fe-block-yui_3_17_2_1_1712098578293_31337 {
         grid-row-start: 2;
         grid-row-end: 13;
@@ -107,7 +107,6 @@ div.list-item-media-inner {
         grid-column-start: 2;
         grid-row-end: 19;
         grid-column-end: 10;
-
     }
 
     div.fe-block-1c58593178c4b47025d7 {
@@ -141,7 +140,7 @@ div.list-item-media-inner {
     }
 }
 
-@media only screen and (max-width: 473px) and (min-width: 433px) {
+@media only screen and (433px <= width <= 473px) {
     div.fe-block-yui_3_17_2_1_1712098578293_31337 {
         grid-row-start: 2;
         grid-row-end: 13;
@@ -185,7 +184,7 @@ div.list-item-media-inner {
     }
 }
 
-@media only screen and (max-width: 528px) and (min-width: 474px) {
+@media only screen and (474px <= width <= 528px) {
     div.fe-block-yui_3_17_2_1_1712098578293_31337 {
         grid-row-start: 2;
         grid-row-end: 13;
@@ -229,7 +228,7 @@ div.list-item-media-inner {
     }
 }
 
-@media only screen and (max-width: 614px) and (min-width: 529px) {
+@media only screen and (529px <= width <= 614px) {
     div.fe-block-yui_3_17_2_1_1712098578293_31337 {
         grid-row-start: 2;
         grid-row-end: 13;
@@ -273,7 +272,7 @@ div.list-item-media-inner {
     }
 }
 
-@media only screen and (max-width: 767px) and (min-width: 615px) {
+@media only screen and (615px <= width <= 767px) {
     div.fe-block-yui_3_17_2_1_1712098578293_31337 {
         grid-row-start: 2;
         grid-row-end: 13;
@@ -317,8 +316,7 @@ div.list-item-media-inner {
     }
 }
 
-@media only screen and (max-width: 1280px) and (min-width: 768px) {
-
+@media only screen and (768px <= width <= 1280px) {
     div.list-item-content h2.list-item-content__title {
         max-width: 80% !important;
     }
