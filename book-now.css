@@ -1,0 +1,18 @@
+div.sqs-image,
+div.list-item-media-inner {
+  border: 7px solid #3dace2;
+}
+
+@media only screen and (350px <= width <= 767px) {
+  div.fe-66270d5e4c79106585f83cf8 {
+        grid-template-rows: repeat(33, minmax(24px, auto));
+  }
+  
+  main.container div.content-wrapper {
+    padding-top:20px !important;
+  }
+  
+    div.fe-block-db5e2ba6de7a11ef1ff0 {
+    grid-column-end:5;
+  } 
+}
