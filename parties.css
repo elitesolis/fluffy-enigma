@@ -68,20 +68,21 @@ div.list-item-media-inner {
 
   div.fe-block-68c0f14fc1d6d7b6c86b {
     grid-row-start: 23;
+    grid-row-end: 118;
   }
 
   div.fe-block-4e9f7e53097f9d1aa20d {
-    grid-row-start: 120 !important;
-    grid-row-end: 126;
+    grid-row-start: 119 !important;
+    grid-row-end: 125;
   }
 
   div.fe-block-035d387819f33396d791 {
-    grid-row-start: 127;
-    grid-row-end: 133;
+    grid-row-start: 126;
+    grid-row-end: 132;
   }
 
   div.fe-662866958e0d293382bbeeef {
-    grid-template-rows: repeat(132, minmax(24px, auto));
+    grid-template-rows: repeat(131, minmax(24px, auto));
   }
 }
 

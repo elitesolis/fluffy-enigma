@@ -231,7 +231,7 @@ div.list-item-media-inner {
 @media only screen and (529px <= width <= 614px) {
     div.fe-block-yui_3_17_2_1_1712098578293_31337 {
         grid-row-start: 2;
-        grid-row-end: 13;
+        grid-row-end: 10;
     }
 
     div.fe-block-yui_3_17_2_1_1712098578293_33104 {
@@ -275,11 +275,11 @@ div.list-item-media-inner {
 @media only screen and (615px <= width <= 767px) {
     div.fe-block-yui_3_17_2_1_1712098578293_31337 {
         grid-row-start: 2;
-        grid-row-end: 13;
+        grid-row-end: 9;
     }
 
     div.fe-block-yui_3_17_2_1_1712098578293_33104 {
-        grid-row-start: 10;
+        grid-row-start: 9;
         grid-column-start: 2;
         grid-row-end: 16;
         grid-column-end: 10;

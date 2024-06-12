@@ -27,7 +27,7 @@ div.sqs-image {
   @media (432px <= width) {
     main.container div.content-wrapper {
       padding-top: 3.5vmax !important;
-      padding-bottom: 0vmax !important;
+      padding-bottom: 0.0 !important;
     }
   }
 }
