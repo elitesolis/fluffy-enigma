@@ -14,7 +14,7 @@ div.list-item-content h2 {
 /* START RESPONSIVENESS */
 @media only screen and (350px <= width <= 528px) {
     div.fe-660dd85628143b34e09c29e5 {
-        grid-template-rows: repeat(18, minmax(24px, auto));
+        grid-template-rows: repeat(23, minmax(24px, auto));
     }
 
     div.fe-block-yui_3_17_2_1_1712098578293_31337 {
