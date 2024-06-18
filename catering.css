@@ -29,7 +29,7 @@ div.list-item-content h2 {
     }
 }
 
-@media only screen and (529px <= width <= 362px) {
+@media only screen and (529px <= width <= 767px) {
     div.fe-660dd85628143b34e09c29e5 {
         grid-template-rows: repeat(14, minmax(24px, auto));
     }
