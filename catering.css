@@ -17,6 +17,10 @@ div.list-item-content h2 {
         grid-template-rows: repeat(18, minmax(24px, auto));
     }
 
+    div.fe-block-yui_3_17_2_1_1712098578293_31337 {
+        grid-row-start: 2;
+    }
+
     div.fe-block-yui_3_17_2_1_1712098578293_33104 {
         grid-row-start: 13;
         grid-column-start: 2;
